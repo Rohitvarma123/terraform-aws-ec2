@@ -1,7 +1,7 @@
 resource "aws_instance" "my-ec2-vm" {
   ami           = data.aws_ami.amzlinux.id
   instance_type = "t3.micro"
-  key_name      = "Terraform-key"
+  key_name      = "docker"
 
   user_data = <<EOF
 #!/bin/bash

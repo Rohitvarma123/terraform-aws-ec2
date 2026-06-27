@@ -1,6 +1,6 @@
 variable "aws_region" {
     type = string
-    default ="us-south-2"
+    default ="ap-south-1"
   
 }
 variable "ec2_instance_type" {
